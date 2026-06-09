@@ -99,15 +99,17 @@ if query:
             st.stop()
 
         # 3. Pipeline RAG + Routing
+        model = None
         try:
             decision = classify_complexity(query)
+            model = decision.model
             st.info(f"Routing: {decision.complexity} -> {decision.model}")
             log_event("route_decision", trace_id=trace_id, **decision.__dict__)
         except NotImplementedError:
             st.warning("Routing nao implementado (TODO 6). Usando modelo default.")
 
         try:
-            result = pipeline.answer(query)
+            result = pipeline.answer(query, model=model)
         except NotImplementedError as e:
             st.error(f"Pipeline nao implementado: {e}")
             st.info("Implemente TODOs 1-3 em `src/pipeline/rag.py` para destravar.")

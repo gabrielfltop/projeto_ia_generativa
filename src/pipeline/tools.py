@@ -1,64 +1,108 @@
-"""Function-calling / tool-use — registro de tools usadas pelo agente.
+def _make_search_corpus(pipeline: RAGPipeline) -> Callable[[str], str]:
+    """Busca semântica no corpus: retorna os chunks mais relevantes para a query."""
 
-Reaproveita o LAB-001. Voce vai preencher 1 TODO aqui (sua tool especifica).
-"""
+    def search_corpus(query: str, k: int = 5) -> str:
+        hits = pipeline.retrieve(query, k=k)
+        if not hits:
+            return json.dumps({"error": "Nenhum trecho encontrado para a query."}, ensure_ascii=False)
 
-from __future__ import annotations
+        results = [
+            {"source": h["source"], "page": h["page"], "text": h["text"]}
+            for h in hits
+        ]
+        return json.dumps({"query": query, "results": results}, ensure_ascii=False)
 
-import json
-from typing import Any, Callable
-
-
-# ============================================================================
-# TODO 4 — Sua tool especifica do dominio
-# ============================================================================
-# Cada projeto precisa de UMA tool customizada que faca sentido para o problema.
-# Exemplos por dominio:
-#   - Livro tecnico:    lookup_chapter(chapter: int) -> str
-#   - Changelog:        check_compat(lib: str, version: str) -> dict
-#   - Podcast:          get_timestamp(quote: str) -> str
-#   - Codigo:           run_snippet(code: str) -> str  (sandboxed)
-#   - Documentos legais: cite_article(law: str, article: int) -> str
-#
-# 1. Implemente a funcao Python real abaixo (substitua o exemplo)
-# 2. Adicione o schema JSON em TOOLS abaixo
-# 3. Registre em TOOL_REGISTRY
-# ============================================================================
+    return search_corpus
 
 
-# SEU CODIGO AQUI — TODO 4
-def my_domain_tool(arg1: str) -> str:
-    """Substitua esta funcao pela sua tool especifica.
+def _make_lookup_page(pipeline: RAGPipeline) -> Callable[[str, int], str]:
+    """Recupera chunks de uma página específica do corpus por source + page."""
 
-    A funcao deve receber argumentos primitivos (str, int, float, bool) e
-    retornar string com o resultado (sera passado de volta ao LLM como tool result).
-    """
-    return f"TODO: implementar tool para o argumento: {arg1}"
+    def lookup_page(source: str, page: int) -> str:
+        results = pipeline.collection.get(
+            where={"$and": [{"source": source}, {"page": page}]}
+        )
+
+        if not results["documents"]:
+            return json.dumps(
+                {"error": f"Nenhum chunk encontrado em '{source}' página {page}."},
+                ensure_ascii=False,
+            )
+
+        chunks = [
+            {"text": doc, "source": meta["source"], "page": meta["page"]}
+            for doc, meta in zip(results["documents"], results["metadatas"])
+        ]
+        return json.dumps({"source": source, "page": page, "chunks": chunks}, ensure_ascii=False)
+
+    return lookup_page
 
 
 TOOLS: list[dict[str, Any]] = [
-    # SEU CODIGO AQUI — TODO 4 (continuacao)
-    # Adicione o schema JSON da sua tool. Modelo (referencia LAB-001):
-    # {
-    #     "type": "function",
-    #     "function": {
-    #         "name": "my_domain_tool",
-    #         "description": "Descrever o que a tool faz em pt-BR — LLM le isso para decidir quando usar",
-    #         "parameters": {
-    #             "type": "object",
-    #             "properties": {
-    #                 "arg1": {"type": "string", "description": "..."},
-    #             },
-    #             "required": ["arg1"],
-    #         },
-    #     },
-    # },
+    {
+        "type": "function",
+        "function": {
+            "name": "search_corpus",
+            "description": (
+                "Busca trechos relevantes no corpus Star Wars usando similaridade semântica. "
+                "Use para responder perguntas sobre personagens, eventos, planetas, batalhas "
+                "ou qualquer conceito do universo. Retorna os chunks mais próximos com fonte e página."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "Pergunta ou termo a buscar no corpus, ex: 'Quem é Darth Vader?' ou 'Battle of Yavin'.",
+                    },
+                    "k": {
+                        "type": "integer",
+                        "description": "Número de trechos a retornar (padrão: 5).",
+                        "default": 5,
+                    },
+                },
+                "required": ["query"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "lookup_page",
+            "description": (
+                "Recupera o conteúdo de uma página específica de um arquivo do corpus. "
+                "Use quando já souber a fonte e a página exata (ex: a partir de um resultado "
+                "anterior de search_corpus) e quiser ler o trecho completo."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "source": {
+                        "type": "string",
+                        "description": "Nome do arquivo no corpus, ex: 'starwars.pdf'.",
+                    },
+                    "page": {
+                        "type": "integer",
+                        "description": "Número da página a recuperar.",
+                    },
+                },
+                "required": ["source", "page"],
+            },
+        },
+    },
 ]
 
 
-TOOL_REGISTRY: dict[str, Callable[..., str]] = {
-    # "my_domain_tool": my_domain_tool,
-}
+TOOL_REGISTRY: dict[str, Callable[..., str]] = {}
+
+
+def init_tools(pipeline: RAGPipeline) -> None:
+    """Preenche TOOL_REGISTRY com as tools fechadas sobre o pipeline.
+
+    Chamar no startup do agente, após build_rag_pipeline().
+    """
+    TOOL_REGISTRY["search_corpus"] = _make_search_corpus(pipeline)
+    TOOL_REGISTRY["lookup_page"]   = _make_lookup_page(pipeline)
 
 
 def run_tool_call(name: str, arguments_json: str) -> str:

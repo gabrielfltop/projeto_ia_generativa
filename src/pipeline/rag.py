@@ -6,6 +6,7 @@ Reaproveita as funcoes do notebook 02. Voce vai preencher 3 TODOs aqui.
 from __future__ import annotations
 
 import os
+import time
 from pathlib import Path
 from typing import Any
 
@@ -69,14 +70,7 @@ class RAGPipeline:
         """Le PDFs de `corpus_dir`, faz chunking e indexa em Chroma.
 
         Retorna numero de chunks indexados.
-
-        Ja deixei a estrutura do ciclo. Voce completa as 3 partes marcadas.
         """
-        # SEU CODIGO AQUI — TODO 1.A
-        # Iterar por todos os PDFs em self.corpus_dir.
-        # Para cada PDF, ler todas as paginas com PdfReader e extrair texto.
-        # Acumular numa lista `docs` com dicts: {"text": str, "source": str, "page": int}
-        # Dica: reaproveite o snippet do notebook 02 (Etapa 1 — Ingestao de PDFs).
         docs: list[dict] = []
         for pdf_path in sorted(self.corpus_dir.glob("*.pdf")):
             reader = PdfReader(pdf_path)
@@ -91,11 +85,6 @@ class RAGPipeline:
                         }
                     )
 
-        # SEU CODIGO AQUI — TODO 1.B
-        # Aplicar RecursiveCharacterTextSplitter com chunk_size=800, overlap=100
-        # Quebrar cada doc em chunks e construir lista `chunks` com:
-        # {"id": unique_id, "text": str, "source": str, "page": int}
-        # Dica: reaproveite o notebook 02 (Etapa 2 — Chunking Recursivo).
         splitter = RecursiveCharacterTextSplitter(
             chunk_size=800,
             chunk_overlap=100,
@@ -114,10 +103,13 @@ class RAGPipeline:
                     }
                 )
 
-        # SEU CODIGO AQUI — TODO 1.C
-        # Adicionar chunks no Chroma via self.collection.add(ids=, documents=, metadatas=)
-        # Lembre de filtrar metadatas para conter apenas {source, page} (Chroma rejeita listas).
-        BATCH_SIZE = 100
+        print("\n-- Iniciando indexação --\n")
+        print("\nPáginas indexadas:\n")
+        for c in chunks:
+            print(f"{c['source']} - página {c['page']}")
+        print("\n-- Indexação concluída --\n")
+
+        BATCH_SIZE = 10
         for i in range(0, len(chunks), BATCH_SIZE):
             lote = chunks[i : i + BATCH_SIZE]
             self.collection.add(
@@ -128,16 +120,13 @@ class RAGPipeline:
                     for c in lote
                 ],
             )
+            time.sleep(1)  # respeita rate limit do Gemini free tier
 
         return self.collection.count()
 
     # ------------------------------------------------------------------ TODO 2
     def retrieve(self, query: str, k: int = 5) -> list[dict]:
         """Busca top-k chunks similares a query."""
-        # SEU CODIGO AQUI — TODO 2
-        # Usar self.collection.query(query_texts=[query], n_results=k)
-        # Retornar lista de dicts: {"text", "source", "page", "distance"}
-        # Dica: notebook 02, Etapa 4 — Retrieval.
         result = self.collection.query(query_texts=[query], n_results=k)
         return [
             {
@@ -148,22 +137,18 @@ class RAGPipeline:
             }
             for i in range(len(result["documents"][0]))
         ]
-        raise NotImplementedError("TODO 2: implementar retrieve()")
 
     # ------------------------------------------------------------------ TODO 3
-    def answer(self, question: str, k: int = 5) -> dict:
-        """Pipeline completo: retrieve + augment + generate. Retorna {answer, sources}."""
-        hits = self.retrieve(question, k=k)
+    def answer(self, question: str, k: int = 5, model: str | None = None) -> dict:
+        """Pipeline completo: retrieve + augment + generate. Retorna {answer, sources}.
 
-        # SEU CODIGO AQUI — TODO 3
-        # 1. Montar contexto concatenando os textos dos hits com cabecalho [source:page]
-        # 2. Construir prompt com PROMPT_TEMPLATE (definido abaixo)
-        # 3. Chamar self.client.chat.completions.create(model=self.llm_model, ...)
-        # 4. Retornar {"answer": resposta, "sources": [(s, p) for h in hits]}
-        # Dica: notebook 02, Etapa 5 — Augment + Generate.
+        `model` permite ao caller (ex: router) sobrescrever o llm_model default
+        sem mutar o estado do pipeline.
+        """
+        hits = self.retrieve(question, k=k)
         context = "\n\n---\n\n".join(f"[{h['source']}:p{h['page']}]\n{h['text']}" for h in hits)
         response = self.client.chat.completions.create(
-            model=self.llm_model,
+            model=model or self.llm_model,
             messages=[
                 {"role": "user", "content": PROMPT_TEMPLATE.format(context=context, question=question)}
             ],
@@ -173,7 +158,6 @@ class RAGPipeline:
             "answer": response.choices[0].message.content.strip(),
             "sources": [(h["source"], h["page"]) for h in hits],
         }
-        raise NotImplementedError("TODO 3: implementar answer()")
 
 
 PROMPT_TEMPLATE = """Voce e um assistente tecnico. Responda APENAS com base no contexto abaixo.
