@@ -2,7 +2,7 @@
 
 > Chatbot de perguntas e respostas sobre os 6 filmes da saga Star Wars (Episódios I–VI), com RAG, cache semântico e model routing.
 
-**Live demo:** TODO — substituir pelo link do Streamlit Cloud após deploy
+**Live demo:** https://holocron.streamlit.app/
 
 ## Problem statement
 
@@ -31,7 +31,6 @@ flowchart LR
 |---|---|---|
 | imsdb.com | 6 `.txt` | Roteiros completos dos Episódios I–VI |
 | SWAPI (swapi.py4e.com) | 6 `.txt` | Personagens, planetas, naves, veículos, espécies e filmes |
-| Star Wars Encyclopedia Vol. I | 1 `.pdf` | Enciclopédia A–G (Legends + Canon) |
 
 Total: ~1.2 MB de texto indexado em Chroma com chunks de 800 tokens e overlap de 100.
 
@@ -57,17 +56,6 @@ python build_corpus.py
 streamlit run src/ui/streamlit_app.py
 ```
 
-## Cost & Latency
-
-TODO — preencher após rodar bench de 50 queries.
-
-| Estratégia | Custo total | Redução | P95 latency |
-|---|---:|---:|---:|
-| Baseline (premium sempre) | $X.XX | — | XX ms |
-| + Exact cache | $X.XX | XX% | XX ms |
-| + Semantic cache | $X.XX | XX% | XX ms |
-| **+ Routing cheap-first** | **$X.XX** | **XX%** | **XX ms** |
-
 ## Design decisions
 
 - **Corpus em `.txt` separados por categoria:** facilita o `filter_by_source` — o LLM pode restringir a busca a roteiros ou à SWAPI dependendo da pergunta.
@@ -79,7 +67,6 @@ TODO — preencher após rodar bench de 50 queries.
 ## Limitations
 
 - Cobre apenas os Episódios I–VI. Série The Mandalorian, Andor, Ahsoka e material Legends fora desses filmes não estão no corpus.
-- Volume II e III da enciclopédia Star Wars não foram indexados: o Volume II é scaneado (sem camada de texto) e o Volume III tem encoding corrompido — ambos exigiriam OCR.
 - Free tier do Gemini limita a 15 RPM, o que torna a indexação inicial lenta (~10 min para o corpus completo).
 
 ## Tech stack
