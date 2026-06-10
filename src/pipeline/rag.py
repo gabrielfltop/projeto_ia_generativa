@@ -1,7 +1,4 @@
-"""RAG pipeline — chunk, embed, index, retrieve, generate.
-
-Reaproveita as funcoes do notebook 02. Voce vai preencher 3 TODOs aqui.
-"""
+"""RAG pipeline — chunk, embed, index, retrieve, generate."""
 
 from __future__ import annotations
 
@@ -18,7 +15,6 @@ from pypdf import PdfReader
 
 
 def _make_client() -> tuple[OpenAI, str]:
-    """Inicializa cliente OpenAI-compatible conforme provider escolhido no .env."""
     if "GEMINI_API_KEY" in os.environ:
         client = OpenAI(
             api_key=os.environ["GEMINI_API_KEY"],
@@ -65,25 +61,30 @@ class RAGPipeline:
             name=collection_name, embedding_function=self.embed_fn
         )
 
-    # ------------------------------------------------------------------ TODO 1
     def ingest_and_index(self) -> int:
-        """Le PDFs de `corpus_dir`, faz chunking e indexa em Chroma.
-
-        Retorna numero de chunks indexados.
-        """
+        """Lê PDFs e TXTs de `corpus_dir`, faz chunking e indexa em Chroma."""
         docs: list[dict] = []
+
         for pdf_path in sorted(self.corpus_dir.glob("*.pdf")):
             reader = PdfReader(pdf_path)
             for page_idx, page in enumerate(reader.pages):
                 text = page.extract_text() or ""
                 if text.strip():
-                    docs.append(
-                        {
-                            "text": text,
-                            "source": pdf_path.name,
-                            "page": page_idx + 1,
-                        }
-                    )
+                    docs.append({
+                        "text": text,
+                        "source": pdf_path.name,
+                        "page": page_idx + 1,
+                    })
+
+        for txt_path in sorted(self.corpus_dir.glob("*.txt")):
+            full_text = txt_path.read_text(encoding="utf-8")
+            blocks = [b.strip() for b in full_text.split("---") if b.strip()]
+            for i, block in enumerate(blocks):
+                docs.append({
+                    "text": block,
+                    "source": txt_path.name,
+                    "page": i + 1,
+                })
 
         splitter = RecursiveCharacterTextSplitter(
             chunk_size=800,
@@ -94,20 +95,14 @@ class RAGPipeline:
         chunks: list[dict] = []
         for doc in docs:
             for i, chunk in enumerate(splitter.split_text(doc["text"])):
-                chunks.append(
-                    {
-                        "id": f"{doc['source']}-p{doc['page']}-c{i}",
-                        "text": chunk,
-                        "source": doc["source"],
-                        "page": doc["page"],
-                    }
-                )
+                chunks.append({
+                    "id": f"{doc['source']}-p{doc['page']}-c{i}",
+                    "text": chunk,
+                    "source": doc["source"],
+                    "page": doc["page"],
+                })
 
-        print("\n-- Iniciando indexação --\n")
-        print("\nPáginas indexadas:\n")
-        for c in chunks:
-            print(f"{c['source']} - página {c['page']}")
-        print("\n-- Indexação concluída --\n")
+        print(f"\n-- Iniciando indexação: {len(chunks)} chunks de {len(docs)} docs --\n")
 
         BATCH_SIZE = 10
         for i in range(0, len(chunks), BATCH_SIZE):
@@ -115,38 +110,33 @@ class RAGPipeline:
             self.collection.add(
                 ids=[c["id"] for c in lote],
                 documents=[c["text"] for c in lote],
-                metadatas=[
-                    {"source": c["source"], "page": c["page"]}
-                    for c in lote
-                ],
+                metadatas=[{"source": c["source"], "page": c["page"]} for c in lote],
             )
-            time.sleep(1)  # respeita rate limit do Gemini free tier
+            time.sleep(1)
 
+        print("\n-- Indexação concluída --\n")
         return self.collection.count()
 
-    # ------------------------------------------------------------------ TODO 2
     def retrieve(self, query: str, k: int = 5) -> list[dict]:
-        """Busca top-k chunks similares a query."""
+        """Busca top-k chunks similares à query."""
         result = self.collection.query(query_texts=[query], n_results=k)
         return [
             {
                 "text": result["documents"][0][i],
                 "source": result["metadatas"][0][i]["source"],
-                "page": result["metadatas"][0][i]["page"],
                 "distance": result["distances"][0][i],
             }
             for i in range(len(result["documents"][0]))
         ]
 
-    # ------------------------------------------------------------------ TODO 3
     def answer(self, question: str, k: int = 5, model: str | None = None) -> dict:
-        """Pipeline completo: retrieve + augment + generate. Retorna {answer, sources}.
+        """Retrieve + augment + generate. Retorna {answer, sources}.
 
-        `model` permite ao caller (ex: router) sobrescrever o llm_model default
+        `model` permite ao caller sobrescrever o llm_model default
         sem mutar o estado do pipeline.
         """
         hits = self.retrieve(question, k=k)
-        context = "\n\n---\n\n".join(f"[{h['source']}:p{h['page']}]\n{h['text']}" for h in hits)
+        context = "\n\n---\n\n".join(f"[{h['source']}]\n{h['text']}" for h in hits)
         response = self.client.chat.completions.create(
             model=model or self.llm_model,
             messages=[
@@ -156,13 +146,14 @@ class RAGPipeline:
         )
         return {
             "answer": response.choices[0].message.content.strip(),
-            "sources": [(h["source"], h["page"]) for h in hits],
+            "sources": [h["source"] for h in hits],
         }
 
 
-PROMPT_TEMPLATE = """Voce e um assistente tecnico. Responda APENAS com base no contexto abaixo.
-Se a informacao nao estiver no contexto, diga "Nao encontrado no corpus".
-Sempre cite a fonte usando o formato [arquivo:pagina].
+PROMPT_TEMPLATE = """Você é o Holocron, um assistente especializado nos 6 filmes da saga Star Wars (Episódios I–VI).
+Responda APENAS com base no contexto abaixo.
+Se a informação não estiver no contexto, diga "Não encontrado no corpus do Holocron".
+Sempre cite a fonte usando o formato [arquivo].
 
 CONTEXTO:
 {context}
@@ -173,7 +164,7 @@ RESPOSTA:"""
 
 
 def build_rag_pipeline(corpus_dir: str = "data/corpus") -> RAGPipeline:
-    """Factory: cria pipeline e indexa corpus se ainda nao indexado."""
+    """Cria pipeline e indexa corpus se ainda não indexado."""
     pipeline = RAGPipeline(corpus_dir=corpus_dir)
     if pipeline.collection.count() == 0:
         pipeline.ingest_and_index()

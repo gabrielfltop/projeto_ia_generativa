@@ -1,0 +1,529 @@
+[Veículo]
+Nome: Sand Crawler
+Modelo: Digger Crawler
+Fabricante: Corellia Mining Corporation
+Custo (créditos): 150000
+Comprimento (m): 36.8 
+Velocidade máxima atmosférica: 30
+Tripulação: 46
+Passageiros: 30
+Capacidade de carga (kg): 50000
+Suprimentos: 2 months
+Classe de veículo: wheeled
+
+---
+
+[Veículo]
+Nome: T-16 skyhopper
+Modelo: T-16 skyhopper
+Fabricante: Incom Corporation
+Custo (créditos): 14500
+Comprimento (m): 10.4 
+Velocidade máxima atmosférica: 1200
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 50
+Suprimentos: 0
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: X-34 landspeeder
+Modelo: X-34 landspeeder
+Fabricante: SoroSuub Corporation
+Custo (créditos): 10550
+Comprimento (m): 3.4 
+Velocidade máxima atmosférica: 250
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 5
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: TIE/LN starfighter
+Modelo: Twin Ion Engine/Ln Starfighter
+Fabricante: Sienar Fleet Systems
+Comprimento (m): 6.4
+Velocidade máxima atmosférica: 1200
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 65
+Suprimentos: 2 days
+Classe de veículo: starfighter
+
+---
+
+[Veículo]
+Nome: Snowspeeder
+Modelo: t-47 airspeeder
+Fabricante: Incom corporation
+Comprimento (m): 4.5
+Velocidade máxima atmosférica: 650
+Tripulação: 2
+Passageiros: 0
+Capacidade de carga (kg): 10
+Classe de veículo: airspeeder
+
+---
+
+[Veículo]
+Nome: TIE bomber
+Modelo: TIE/sa bomber
+Fabricante: Sienar Fleet Systems
+Comprimento (m): 7.8
+Velocidade máxima atmosférica: 850
+Tripulação: 1
+Passageiros: 0
+Suprimentos: 2 days
+Classe de veículo: space/planetary bomber
+
+---
+
+[Veículo]
+Nome: AT-AT
+Modelo: All Terrain Armored Transport
+Fabricante: Kuat Drive Yards, Imperial Department of Military Research
+Comprimento (m): 20
+Velocidade máxima atmosférica: 60
+Tripulação: 5
+Passageiros: 40
+Capacidade de carga (kg): 1000
+Classe de veículo: assault walker
+
+---
+
+[Veículo]
+Nome: AT-ST
+Modelo: All Terrain Scout Transport
+Fabricante: Kuat Drive Yards, Imperial Department of Military Research
+Comprimento (m): 2
+Velocidade máxima atmosférica: 90
+Tripulação: 2
+Passageiros: 0
+Capacidade de carga (kg): 200
+Classe de veículo: walker
+
+---
+
+[Veículo]
+Nome: Storm IV Twin-Pod cloud car
+Modelo: Storm IV Twin-Pod
+Fabricante: Bespin Motors
+Custo (créditos): 75000
+Comprimento (m): 7
+Velocidade máxima atmosférica: 1500
+Tripulação: 2
+Passageiros: 0
+Capacidade de carga (kg): 10
+Suprimentos: 1 day
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: Sail barge
+Modelo: Modified Luxury Sail Barge
+Fabricante: Ubrikkian Industries Custom Vehicle Division
+Custo (créditos): 285000
+Comprimento (m): 30
+Velocidade máxima atmosférica: 100
+Tripulação: 26
+Passageiros: 500
+Capacidade de carga (kg): 2000000
+Suprimentos: Live food tanks
+Classe de veículo: sail barge
+
+---
+
+[Veículo]
+Nome: Bantha-II cargo skiff
+Modelo: Bantha-II
+Fabricante: Ubrikkian Industries
+Custo (créditos): 8000
+Comprimento (m): 9.5
+Velocidade máxima atmosférica: 250
+Tripulação: 5
+Passageiros: 16
+Capacidade de carga (kg): 135000
+Suprimentos: 1 day
+Classe de veículo: repulsorcraft cargo skiff
+
+---
+
+[Veículo]
+Nome: TIE/IN interceptor
+Modelo: Twin Ion Engine Interceptor
+Fabricante: Sienar Fleet Systems
+Comprimento (m): 9.6
+Velocidade máxima atmosférica: 1250
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 75
+Suprimentos: 2 days
+Classe de veículo: starfighter
+
+---
+
+[Veículo]
+Nome: Imperial Speeder Bike
+Modelo: 74-Z speeder bike
+Fabricante: Aratech Repulsor Company
+Custo (créditos): 8000
+Comprimento (m): 3
+Velocidade máxima atmosférica: 360
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 4
+Suprimentos: 1 day
+Classe de veículo: speeder
+
+---
+
+[Veículo]
+Nome: Vulture Droid
+Modelo: Vulture-class droid starfighter
+Fabricante: Haor Chall Engineering, Baktoid Armor Workshop
+Comprimento (m): 3.5
+Velocidade máxima atmosférica: 1200
+Tripulação: 0
+Passageiros: 0
+Capacidade de carga (kg): 0
+Classe de veículo: starfighter
+
+---
+
+[Veículo]
+Nome: Multi-Troop Transport
+Modelo: Multi-Troop Transport
+Fabricante: Baktoid Armor Workshop
+Custo (créditos): 138000
+Comprimento (m): 31
+Velocidade máxima atmosférica: 35
+Tripulação: 4
+Passageiros: 112
+Capacidade de carga (kg): 12000
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: Armored Assault Tank
+Modelo: Armoured Assault Tank
+Fabricante: Baktoid Armor Workshop
+Comprimento (m): 9.75
+Velocidade máxima atmosférica: 55
+Tripulação: 4
+Passageiros: 6
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: Single Trooper Aerial Platform
+Modelo: Single Trooper Aerial Platform
+Fabricante: Baktoid Armor Workshop
+Custo (créditos): 2500
+Comprimento (m): 2
+Velocidade máxima atmosférica: 400
+Tripulação: 1
+Passageiros: 0
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: C-9979 landing craft
+Modelo: C-9979 landing craft
+Fabricante: Haor Chall Engineering
+Custo (créditos): 200000
+Comprimento (m): 210
+Velocidade máxima atmosférica: 587
+Tripulação: 140
+Passageiros: 284
+Capacidade de carga (kg): 1800000
+Suprimentos: 1 day
+Classe de veículo: landing craft
+
+---
+
+[Veículo]
+Nome: Tribubble bongo
+Modelo: Tribubble bongo
+Fabricante: Otoh Gunga Bongameken Cooperative
+Comprimento (m): 15
+Velocidade máxima atmosférica: 85
+Tripulação: 1
+Passageiros: 2
+Capacidade de carga (kg): 1600
+Classe de veículo: submarine
+
+---
+
+[Veículo]
+Nome: Sith speeder
+Modelo: FC-20 speeder bike
+Fabricante: Razalon
+Custo (créditos): 4000
+Comprimento (m): 1.5
+Velocidade máxima atmosférica: 180
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 2
+Classe de veículo: speeder
+
+---
+
+[Veículo]
+Nome: Zephyr-G swoop bike
+Modelo: Zephyr-G swoop bike
+Fabricante: Mobquet Swoops and Speeders
+Custo (créditos): 5750
+Comprimento (m): 3.68
+Velocidade máxima atmosférica: 350
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 200
+Classe de veículo: repulsorcraft
+
+---
+
+[Veículo]
+Nome: Koro-2 Exodrive airspeeder
+Modelo: Koro-2 Exodrive airspeeder
+Fabricante: Desler Gizh Outworld Mobility Corporation
+Comprimento (m): 6.6
+Velocidade máxima atmosférica: 800
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 80
+Classe de veículo: airspeeder
+
+---
+
+[Veículo]
+Nome: XJ-6 airspeeder
+Modelo: XJ-6 airspeeder
+Fabricante: Narglatch AirTech prefabricated kit
+Comprimento (m): 6.23
+Velocidade máxima atmosférica: 720
+Tripulação: 1
+Passageiros: 1
+Classe de veículo: airspeeder
+
+---
+
+[Veículo]
+Nome: LAAT/i
+Modelo: Low Altitude Assault Transport/infrantry
+Fabricante: Rothana Heavy Engineering
+Comprimento (m): 17.4
+Velocidade máxima atmosférica: 620
+Tripulação: 6
+Passageiros: 30
+Capacidade de carga (kg): 170
+Classe de veículo: gunship
+
+---
+
+[Veículo]
+Nome: LAAT/c
+Modelo: Low Altitude Assault Transport/carrier
+Fabricante: Rothana Heavy Engineering
+Comprimento (m): 28.82
+Velocidade máxima atmosférica: 620
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 40000
+Classe de veículo: gunship
+
+---
+
+[Veículo]
+Nome: AT-TE
+Modelo: All Terrain Tactical Enforcer
+Fabricante: Rothana Heavy Engineering, Kuat Drive Yards
+Comprimento (m): 13.2
+Velocidade máxima atmosférica: 60
+Tripulação: 6
+Passageiros: 36
+Capacidade de carga (kg): 10000
+Suprimentos: 21 days
+Classe de veículo: walker
+
+---
+
+[Veículo]
+Nome: SPHA
+Modelo: Self-Propelled Heavy Artillery
+Fabricante: Rothana Heavy Engineering
+Comprimento (m): 140
+Velocidade máxima atmosférica: 35
+Tripulação: 25
+Passageiros: 30
+Capacidade de carga (kg): 500
+Suprimentos: 7 days
+Classe de veículo: walker
+
+---
+
+[Veículo]
+Nome: Flitknot speeder
+Modelo: Flitknot speeder
+Fabricante: Huppla Pasa Tisc Shipwrights Collective
+Custo (créditos): 8000
+Comprimento (m): 2
+Velocidade máxima atmosférica: 634
+Tripulação: 1
+Passageiros: 0
+Classe de veículo: speeder
+
+---
+
+[Veículo]
+Nome: Neimoidian shuttle
+Modelo: Sheathipede-class transport shuttle
+Fabricante: Haor Chall Engineering
+Comprimento (m): 20
+Velocidade máxima atmosférica: 880
+Tripulação: 2
+Passageiros: 6
+Capacidade de carga (kg): 1000
+Suprimentos: 7 days
+Classe de veículo: transport
+
+---
+
+[Veículo]
+Nome: Geonosian starfighter
+Modelo: Nantex-class territorial defense
+Fabricante: Huppla Pasa Tisc Shipwrights Collective
+Comprimento (m): 9.8
+Velocidade máxima atmosférica: 20000
+Tripulação: 1
+Passageiros: 0
+Classe de veículo: starfighter
+
+---
+
+[Veículo]
+Nome: Tsmeu-6 personal wheel bike
+Modelo: Tsmeu-6 personal wheel bike
+Fabricante: Z-Gomot Ternbuell Guppat Corporation
+Custo (créditos): 15000
+Comprimento (m): 3.5
+Velocidade máxima atmosférica: 330
+Tripulação: 1
+Passageiros: 1
+Capacidade de carga (kg): 10
+Classe de veículo: wheeled walker
+
+---
+
+[Veículo]
+Nome: Emergency Firespeeder
+Modelo: Fire suppression speeder
+Tripulação: 2
+Classe de veículo: fire suppression ship
+
+---
+
+[Veículo]
+Nome: Droid tri-fighter
+Modelo: tri-fighter
+Fabricante: Colla Designs, Phlac-Arphocc Automata Industries
+Custo (créditos): 20000
+Comprimento (m): 5.4
+Velocidade máxima atmosférica: 1180
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 0
+Classe de veículo: droid starfighter
+
+---
+
+[Veículo]
+Nome: Oevvaor jet catamaran
+Modelo: Oevvaor jet catamaran
+Fabricante: Appazanna Engineering Works
+Custo (créditos): 12125
+Comprimento (m): 15.1
+Velocidade máxima atmosférica: 420
+Tripulação: 2
+Passageiros: 2
+Capacidade de carga (kg): 50
+Suprimentos: 3 days
+Classe de veículo: airspeeder
+
+---
+
+[Veículo]
+Nome: Raddaugh Gnasp fluttercraft
+Modelo: Raddaugh Gnasp fluttercraft
+Fabricante: Appazanna Engineering Works
+Custo (créditos): 14750
+Comprimento (m): 7
+Velocidade máxima atmosférica: 310
+Tripulação: 2
+Passageiros: 0
+Capacidade de carga (kg): 20
+Classe de veículo: air speeder
+
+---
+
+[Veículo]
+Nome: Clone turbo tank
+Modelo: HAVw A6 Juggernaut
+Fabricante: Kuat Drive Yards
+Custo (créditos): 350000
+Comprimento (m): 49.4
+Velocidade máxima atmosférica: 160
+Tripulação: 20
+Passageiros: 300
+Capacidade de carga (kg): 30000
+Suprimentos: 20 days
+Classe de veículo: wheeled walker
+
+---
+
+[Veículo]
+Nome: Corporate Alliance tank droid
+Modelo: NR-N99 Persuader-class droid enforcer
+Fabricante: Techno Union
+Custo (créditos): 49000
+Comprimento (m): 10.96
+Velocidade máxima atmosférica: 100
+Tripulação: 0
+Passageiros: 4
+Classe de veículo: droid tank
+
+---
+
+[Veículo]
+Nome: Droid gunship
+Modelo: HMP droid gunship
+Fabricante: Baktoid Fleet Ordnance, Haor Chall Engineering
+Custo (créditos): 60000
+Comprimento (m): 12.3
+Velocidade máxima atmosférica: 820
+Tripulação: 0
+Passageiros: 0
+Capacidade de carga (kg): 0
+Classe de veículo: airspeeder
+
+---
+
+[Veículo]
+Nome: AT-RT
+Modelo: All Terrain Recon Transport
+Fabricante: Kuat Drive Yards
+Custo (créditos): 40000
+Comprimento (m): 3.2
+Velocidade máxima atmosférica: 90
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 20
+Suprimentos: 1 day
+Classe de veículo: walker

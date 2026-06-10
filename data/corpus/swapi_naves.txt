@@ -1,0 +1,572 @@
+[Nave]
+Nome: CR90 corvette
+Modelo: CR90 corvette
+Fabricante: Corellian Engineering Corporation
+Custo (créditos): 3500000
+Comprimento (m): 150
+Velocidade máxima atmosférica: 950
+Tripulação: 30-165
+Passageiros: 600
+Capacidade de carga (kg): 3000000
+Suprimentos: 1 year
+Rating do hyperdrive: 2.0
+MGLT: 60
+Classe de nave: corvette
+
+---
+
+[Nave]
+Nome: Star Destroyer
+Modelo: Imperial I-class Star Destroyer
+Fabricante: Kuat Drive Yards
+Custo (créditos): 150000000
+Comprimento (m): 1,600
+Velocidade máxima atmosférica: 975
+Tripulação: 47,060
+Capacidade de carga (kg): 36000000
+Suprimentos: 2 years
+Rating do hyperdrive: 2.0
+MGLT: 60
+Classe de nave: Star Destroyer
+
+---
+
+[Nave]
+Nome: Sentinel-class landing craft
+Modelo: Sentinel-class landing craft
+Fabricante: Sienar Fleet Systems, Cyngus Spaceworks
+Custo (créditos): 240000
+Comprimento (m): 38
+Velocidade máxima atmosférica: 1000
+Tripulação: 5
+Passageiros: 75
+Capacidade de carga (kg): 180000
+Suprimentos: 1 month
+Rating do hyperdrive: 1.0
+MGLT: 70
+Classe de nave: landing craft
+
+---
+
+[Nave]
+Nome: Death Star
+Modelo: DS-1 Orbital Battle Station
+Fabricante: Imperial Department of Military Research, Sienar Fleet Systems
+Custo (créditos): 1000000000000
+Comprimento (m): 120000
+Tripulação: 342,953
+Passageiros: 843,342
+Capacidade de carga (kg): 1000000000000
+Suprimentos: 3 years
+Rating do hyperdrive: 4.0
+MGLT: 10
+Classe de nave: Deep Space Mobile Battlestation
+
+---
+
+[Nave]
+Nome: Millennium Falcon
+Modelo: YT-1300 light freighter
+Fabricante: Corellian Engineering Corporation
+Custo (créditos): 100000
+Comprimento (m): 34.37
+Velocidade máxima atmosférica: 1050
+Tripulação: 4
+Passageiros: 6
+Capacidade de carga (kg): 100000
+Suprimentos: 2 months
+Rating do hyperdrive: 0.5
+MGLT: 75
+Classe de nave: Light freighter
+
+---
+
+[Nave]
+Nome: Y-wing
+Modelo: BTL Y-wing
+Fabricante: Koensayr Manufacturing
+Custo (créditos): 134999
+Comprimento (m): 14
+Velocidade máxima atmosférica: 1000km
+Tripulação: 2
+Passageiros: 0
+Capacidade de carga (kg): 110
+Suprimentos: 1 week
+Rating do hyperdrive: 1.0
+MGLT: 80
+Classe de nave: assault starfighter
+
+---
+
+[Nave]
+Nome: X-wing
+Modelo: T-65 X-wing
+Fabricante: Incom Corporation
+Custo (créditos): 149999
+Comprimento (m): 12.5
+Velocidade máxima atmosférica: 1050
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 110
+Suprimentos: 1 week
+Rating do hyperdrive: 1.0
+MGLT: 100
+Classe de nave: Starfighter
+
+---
+
+[Nave]
+Nome: TIE Advanced x1
+Modelo: Twin Ion Engine Advanced x1
+Fabricante: Sienar Fleet Systems
+Comprimento (m): 9.2
+Velocidade máxima atmosférica: 1200
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 150
+Suprimentos: 5 days
+Rating do hyperdrive: 1.0
+MGLT: 105
+Classe de nave: Starfighter
+
+---
+
+[Nave]
+Nome: Executor
+Modelo: Executor-class star dreadnought
+Fabricante: Kuat Drive Yards, Fondor Shipyards
+Custo (créditos): 1143350000
+Comprimento (m): 19000
+Tripulação: 279,144
+Passageiros: 38000
+Capacidade de carga (kg): 250000000
+Suprimentos: 6 years
+Rating do hyperdrive: 2.0
+MGLT: 40
+Classe de nave: Star dreadnought
+
+---
+
+[Nave]
+Nome: Rebel transport
+Modelo: GR-75 medium transport
+Fabricante: Gallofree Yards, Inc.
+Comprimento (m): 90
+Velocidade máxima atmosférica: 650
+Tripulação: 6
+Passageiros: 90
+Capacidade de carga (kg): 19000000
+Suprimentos: 6 months
+Rating do hyperdrive: 4.0
+MGLT: 20
+Classe de nave: Medium transport
+
+---
+
+[Nave]
+Nome: Slave 1
+Modelo: Firespray-31-class patrol and attack
+Fabricante: Kuat Systems Engineering
+Comprimento (m): 21.5
+Velocidade máxima atmosférica: 1000
+Tripulação: 1
+Passageiros: 6
+Capacidade de carga (kg): 70000
+Suprimentos: 1 month
+Rating do hyperdrive: 3.0
+MGLT: 70
+Classe de nave: Patrol craft
+
+---
+
+[Nave]
+Nome: Imperial shuttle
+Modelo: Lambda-class T-4a shuttle
+Fabricante: Sienar Fleet Systems
+Custo (créditos): 240000
+Comprimento (m): 20
+Velocidade máxima atmosférica: 850
+Tripulação: 6
+Passageiros: 20
+Capacidade de carga (kg): 80000
+Suprimentos: 2 months
+Rating do hyperdrive: 1.0
+MGLT: 50
+Classe de nave: Armed government transport
+
+---
+
+[Nave]
+Nome: EF76 Nebulon-B escort frigate
+Modelo: EF76 Nebulon-B escort frigate
+Fabricante: Kuat Drive Yards
+Custo (créditos): 8500000
+Comprimento (m): 300
+Velocidade máxima atmosférica: 800
+Tripulação: 854
+Passageiros: 75
+Capacidade de carga (kg): 6000000
+Suprimentos: 2 years
+Rating do hyperdrive: 2.0
+MGLT: 40
+Classe de nave: Escort ship
+
+---
+
+[Nave]
+Nome: Calamari Cruiser
+Modelo: MC80 Liberty type Star Cruiser
+Fabricante: Mon Calamari shipyards
+Custo (créditos): 104000000
+Comprimento (m): 1200
+Tripulação: 5400
+Passageiros: 1200
+Suprimentos: 2 years
+Rating do hyperdrive: 1.0
+MGLT: 60
+Classe de nave: Star Cruiser
+
+---
+
+[Nave]
+Nome: A-wing
+Modelo: RZ-1 A-wing Interceptor
+Fabricante: Alliance Underground Engineering, Incom Corporation
+Custo (créditos): 175000
+Comprimento (m): 9.6
+Velocidade máxima atmosférica: 1300
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 40
+Suprimentos: 1 week
+Rating do hyperdrive: 1.0
+MGLT: 120
+Classe de nave: Starfighter
+
+---
+
+[Nave]
+Nome: B-wing
+Modelo: A/SF-01 B-wing starfighter
+Fabricante: Slayn & Korpil
+Custo (créditos): 220000
+Comprimento (m): 16.9
+Velocidade máxima atmosférica: 950
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 45
+Suprimentos: 1 week
+Rating do hyperdrive: 2.0
+MGLT: 91
+Classe de nave: Assault Starfighter
+
+---
+
+[Nave]
+Nome: Republic Cruiser
+Modelo: Consular-class cruiser
+Fabricante: Corellian Engineering Corporation
+Comprimento (m): 115
+Velocidade máxima atmosférica: 900
+Tripulação: 9
+Passageiros: 16
+Rating do hyperdrive: 2.0
+Classe de nave: Space cruiser
+
+---
+
+[Nave]
+Nome: Droid control ship
+Modelo: Lucrehulk-class Droid Control Ship
+Fabricante: Hoersch-Kessel Drive, Inc.
+Comprimento (m): 3170
+Tripulação: 175
+Passageiros: 139000
+Capacidade de carga (kg): 4000000000
+Suprimentos: 500 days
+Rating do hyperdrive: 2.0
+Classe de nave: Droid control ship
+
+---
+
+[Nave]
+Nome: Naboo fighter
+Modelo: N-1 starfighter
+Fabricante: Theed Palace Space Vessel Engineering Corps
+Custo (créditos): 200000
+Comprimento (m): 11
+Velocidade máxima atmosférica: 1100
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 65
+Suprimentos: 7 days
+Rating do hyperdrive: 1.0
+Classe de nave: Starfighter
+
+---
+
+[Nave]
+Nome: Naboo Royal Starship
+Modelo: J-type 327 Nubian royal starship
+Fabricante: Theed Palace Space Vessel Engineering Corps, Nubia Star Drives
+Comprimento (m): 76
+Velocidade máxima atmosférica: 920
+Tripulação: 8
+Rating do hyperdrive: 1.8
+Classe de nave: yacht
+
+---
+
+[Nave]
+Nome: Scimitar
+Modelo: Star Courier
+Fabricante: Republic Sienar Systems
+Custo (créditos): 55000000
+Comprimento (m): 26.5
+Velocidade máxima atmosférica: 1180
+Tripulação: 1
+Passageiros: 6
+Capacidade de carga (kg): 2500000
+Suprimentos: 30 days
+Rating do hyperdrive: 1.5
+Classe de nave: Space Transport
+
+---
+
+[Nave]
+Nome: J-type diplomatic barge
+Modelo: J-type diplomatic barge
+Fabricante: Theed Palace Space Vessel Engineering Corps, Nubia Star Drives
+Custo (créditos): 2000000
+Comprimento (m): 39
+Velocidade máxima atmosférica: 2000
+Tripulação: 5
+Passageiros: 10
+Suprimentos: 1 year
+Rating do hyperdrive: 0.7
+Classe de nave: Diplomatic barge
+
+---
+
+[Nave]
+Nome: AA-9 Coruscant freighter
+Modelo: Botajef AA-9 Freighter-Liner
+Fabricante: Botajef Shipyards
+Comprimento (m): 390
+Passageiros: 30000
+Classe de nave: freighter
+
+---
+
+[Nave]
+Nome: Jedi starfighter
+Modelo: Delta-7 Aethersprite-class interceptor
+Fabricante: Kuat Systems Engineering
+Custo (créditos): 180000
+Comprimento (m): 8
+Velocidade máxima atmosférica: 1150
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 60
+Suprimentos: 7 days
+Rating do hyperdrive: 1.0
+Classe de nave: Starfighter
+
+---
+
+[Nave]
+Nome: H-type Nubian yacht
+Modelo: H-type Nubian yacht
+Fabricante: Theed Palace Space Vessel Engineering Corps
+Comprimento (m): 47.9
+Velocidade máxima atmosférica: 8000
+Tripulação: 4
+Rating do hyperdrive: 0.9
+Classe de nave: yacht
+
+---
+
+[Nave]
+Nome: Republic Assault ship
+Modelo: Acclamator I-class assault ship
+Fabricante: Rothana Heavy Engineering
+Comprimento (m): 752
+Tripulação: 700
+Passageiros: 16000
+Capacidade de carga (kg): 11250000
+Suprimentos: 2 years
+Rating do hyperdrive: 0.6
+Classe de nave: assault ship
+
+---
+
+[Nave]
+Nome: Solar Sailer
+Modelo: Punworcca 116-class interstellar sloop
+Fabricante: Huppla Pasa Tisc Shipwrights Collective
+Custo (créditos): 35700
+Comprimento (m): 15.2
+Velocidade máxima atmosférica: 1600
+Tripulação: 3
+Passageiros: 11
+Capacidade de carga (kg): 240
+Suprimentos: 7 days
+Rating do hyperdrive: 1.5
+Classe de nave: yacht
+
+---
+
+[Nave]
+Nome: Trade Federation cruiser
+Modelo: Providence-class carrier/destroyer
+Fabricante: Rendili StarDrive, Free Dac Volunteers Engineering corps.
+Custo (créditos): 125000000
+Comprimento (m): 1088
+Velocidade máxima atmosférica: 1050
+Tripulação: 600
+Passageiros: 48247
+Capacidade de carga (kg): 50000000
+Suprimentos: 4 years
+Rating do hyperdrive: 1.5
+Classe de nave: capital ship
+
+---
+
+[Nave]
+Nome: Theta-class T-2c shuttle
+Modelo: Theta-class T-2c shuttle
+Fabricante: Cygnus Spaceworks
+Custo (créditos): 1000000
+Comprimento (m): 18.5
+Velocidade máxima atmosférica: 2000
+Tripulação: 5
+Passageiros: 16
+Capacidade de carga (kg): 50000
+Suprimentos: 56 days
+Rating do hyperdrive: 1.0
+Classe de nave: transport
+
+---
+
+[Nave]
+Nome: Republic attack cruiser
+Modelo: Senator-class Star Destroyer
+Fabricante: Kuat Drive Yards, Allanteen Six shipyards
+Custo (créditos): 59000000
+Comprimento (m): 1137
+Velocidade máxima atmosférica: 975
+Tripulação: 7400
+Passageiros: 2000
+Capacidade de carga (kg): 20000000
+Suprimentos: 2 years
+Rating do hyperdrive: 1.0
+Classe de nave: star destroyer
+
+---
+
+[Nave]
+Nome: Naboo star skiff
+Modelo: J-type star skiff
+Fabricante: Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated
+Comprimento (m): 29.2
+Velocidade máxima atmosférica: 1050
+Tripulação: 3
+Passageiros: 3
+Rating do hyperdrive: 0.5
+Classe de nave: yacht
+
+---
+
+[Nave]
+Nome: Jedi Interceptor
+Modelo: Eta-2 Actis-class light interceptor
+Fabricante: Kuat Systems Engineering
+Custo (créditos): 320000
+Comprimento (m): 5.47
+Velocidade máxima atmosférica: 1500
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 60
+Suprimentos: 2 days
+Rating do hyperdrive: 1.0
+Classe de nave: starfighter
+
+---
+
+[Nave]
+Nome: arc-170
+Modelo: Aggressive Reconnaissance-170 starfighte
+Fabricante: Incom Corporation, Subpro Corporation
+Custo (créditos): 155000
+Comprimento (m): 14.5
+Velocidade máxima atmosférica: 1000
+Tripulação: 3
+Passageiros: 0
+Capacidade de carga (kg): 110
+Suprimentos: 5 days
+Rating do hyperdrive: 1.0
+MGLT: 100
+Classe de nave: starfighter
+
+---
+
+[Nave]
+Nome: Banking clan frigte
+Modelo: Munificent-class star frigate
+Fabricante: Hoersch-Kessel Drive, Inc, Gwori Revolutionary Industries
+Custo (créditos): 57000000
+Comprimento (m): 825
+Tripulação: 200
+Capacidade de carga (kg): 40000000
+Suprimentos: 2 years
+Rating do hyperdrive: 1.0
+Classe de nave: cruiser
+
+---
+
+[Nave]
+Nome: Belbullab-22 starfighter
+Modelo: Belbullab-22 starfighter
+Fabricante: Feethan Ottraw Scalable Assemblies
+Custo (créditos): 168000
+Comprimento (m): 6.71
+Velocidade máxima atmosférica: 1100
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 140
+Suprimentos: 7 days
+Rating do hyperdrive: 6
+Classe de nave: starfighter
+
+---
+
+[Nave]
+Nome: V-wing
+Modelo: Alpha-3 Nimbus-class V-wing starfighter
+Fabricante: Kuat Systems Engineering
+Custo (créditos): 102500
+Comprimento (m): 7.9
+Velocidade máxima atmosférica: 1050
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 60
+Suprimentos: 15 hours
+Rating do hyperdrive: 1.0
+Classe de nave: starfighter
+
+---
+
+[Nave]
+Nome: X-wing
+Modelo: T-70 X-wing
+Fabricante: Incom Corporation
+Custo (créditos): 200000
+Comprimento (m): 12.49
+Velocidade máxima atmosférica: 1100
+Tripulação: 1
+Passageiros: 0
+Capacidade de carga (kg): 110
+Suprimentos: 1 week
+Rating do hyperdrive: 1.0
+MGLT: 110
+Classe de nave: Starfighter

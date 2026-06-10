@@ -1,0 +1,909 @@
+[Personagem]
+Nome: Luke Skywalker
+Altura (cm): 172
+Massa (kg): 77
+Cor do cabelo: blond
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 19BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: C-3PO
+Altura (cm): 167
+Massa (kg): 75
+Cor da pele: gold
+Cor dos olhos: yellow
+Ano de nascimento: 112BBY
+
+---
+
+[Personagem]
+Nome: R2-D2
+Altura (cm): 96
+Massa (kg): 32
+Cor da pele: white, blue
+Cor dos olhos: red
+Ano de nascimento: 33BBY
+
+---
+
+[Personagem]
+Nome: Darth Vader
+Altura (cm): 202
+Massa (kg): 136
+Cor da pele: white
+Cor dos olhos: yellow
+Ano de nascimento: 41.9BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Leia Organa
+Altura (cm): 150
+Massa (kg): 49
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Ano de nascimento: 19BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Owen Lars
+Altura (cm): 178
+Massa (kg): 120
+Cor do cabelo: brown, grey
+Cor da pele: light
+Cor dos olhos: blue
+Ano de nascimento: 52BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Beru Whitesun lars
+Altura (cm): 165
+Massa (kg): 75
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: blue
+Ano de nascimento: 47BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: R5-D4
+Altura (cm): 97
+Massa (kg): 32
+Cor da pele: white, red
+Cor dos olhos: red
+
+---
+
+[Personagem]
+Nome: Biggs Darklighter
+Altura (cm): 183
+Massa (kg): 84
+Cor do cabelo: black
+Cor da pele: light
+Cor dos olhos: brown
+Ano de nascimento: 24BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Obi-Wan Kenobi
+Altura (cm): 182
+Massa (kg): 77
+Cor do cabelo: auburn, white
+Cor da pele: fair
+Cor dos olhos: blue-gray
+Ano de nascimento: 57BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Anakin Skywalker
+Altura (cm): 188
+Massa (kg): 84
+Cor do cabelo: blond
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 41.9BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Wilhuff Tarkin
+Altura (cm): 180
+Cor do cabelo: auburn, grey
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 64BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Chewbacca
+Altura (cm): 228
+Massa (kg): 112
+Cor do cabelo: brown
+Cor dos olhos: blue
+Ano de nascimento: 200BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Han Solo
+Altura (cm): 180
+Massa (kg): 80
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: brown
+Ano de nascimento: 29BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Greedo
+Altura (cm): 173
+Massa (kg): 74
+Cor da pele: green
+Cor dos olhos: black
+Ano de nascimento: 44BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Jabba Desilijic Tiure
+Altura (cm): 175
+Massa (kg): 1,358
+Cor da pele: green-tan, brown
+Cor dos olhos: orange
+Ano de nascimento: 600BBY
+Gênero: hermaphrodite
+
+---
+
+[Personagem]
+Nome: Wedge Antilles
+Altura (cm): 170
+Massa (kg): 77
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: hazel
+Ano de nascimento: 21BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Jek Tono Porkins
+Altura (cm): 180
+Massa (kg): 110
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: blue
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Yoda
+Altura (cm): 66
+Massa (kg): 17
+Cor do cabelo: white
+Cor da pele: green
+Cor dos olhos: brown
+Ano de nascimento: 896BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Palpatine
+Altura (cm): 170
+Massa (kg): 75
+Cor do cabelo: grey
+Cor da pele: pale
+Cor dos olhos: yellow
+Ano de nascimento: 82BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Boba Fett
+Altura (cm): 183
+Massa (kg): 78.2
+Cor do cabelo: black
+Cor da pele: fair
+Cor dos olhos: brown
+Ano de nascimento: 31.5BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: IG-88
+Altura (cm): 200
+Massa (kg): 140
+Cor da pele: metal
+Cor dos olhos: red
+Ano de nascimento: 15BBY
+
+---
+
+[Personagem]
+Nome: Bossk
+Altura (cm): 190
+Massa (kg): 113
+Cor da pele: green
+Cor dos olhos: red
+Ano de nascimento: 53BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Lando Calrissian
+Altura (cm): 177
+Massa (kg): 79
+Cor do cabelo: black
+Cor da pele: dark
+Cor dos olhos: brown
+Ano de nascimento: 31BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Lobot
+Altura (cm): 175
+Massa (kg): 79
+Cor da pele: light
+Cor dos olhos: blue
+Ano de nascimento: 37BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Ackbar
+Altura (cm): 180
+Massa (kg): 83
+Cor da pele: brown mottle
+Cor dos olhos: orange
+Ano de nascimento: 41BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Mon Mothma
+Altura (cm): 150
+Cor do cabelo: auburn
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 48BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Arvel Crynyd
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: brown
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Wicket Systri Warrick
+Altura (cm): 88
+Massa (kg): 20
+Cor do cabelo: brown
+Cor da pele: brown
+Cor dos olhos: brown
+Ano de nascimento: 8BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Nien Nunb
+Altura (cm): 160
+Massa (kg): 68
+Cor da pele: grey
+Cor dos olhos: black
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Qui-Gon Jinn
+Altura (cm): 193
+Massa (kg): 89
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 92BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Nute Gunray
+Altura (cm): 191
+Massa (kg): 90
+Cor da pele: mottled green
+Cor dos olhos: red
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Finis Valorum
+Altura (cm): 170
+Cor do cabelo: blond
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 91BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Padmé Amidala
+Altura (cm): 185
+Massa (kg): 45
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Ano de nascimento: 46BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Jar Jar Binks
+Altura (cm): 196
+Massa (kg): 66
+Cor da pele: orange
+Cor dos olhos: orange
+Ano de nascimento: 52BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Roos Tarpals
+Altura (cm): 224
+Massa (kg): 82
+Cor da pele: grey
+Cor dos olhos: orange
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Rugor Nass
+Altura (cm): 206
+Cor da pele: green
+Cor dos olhos: orange
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Ric Olié
+Altura (cm): 183
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: blue
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Watto
+Altura (cm): 137
+Cor do cabelo: black
+Cor da pele: blue, grey
+Cor dos olhos: yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Sebulba
+Altura (cm): 112
+Massa (kg): 40
+Cor da pele: grey, red
+Cor dos olhos: orange
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Quarsh Panaka
+Altura (cm): 183
+Cor do cabelo: black
+Cor da pele: dark
+Cor dos olhos: brown
+Ano de nascimento: 62BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Shmi Skywalker
+Altura (cm): 163
+Cor do cabelo: black
+Cor da pele: fair
+Cor dos olhos: brown
+Ano de nascimento: 72BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Darth Maul
+Altura (cm): 175
+Massa (kg): 80
+Cor da pele: red
+Cor dos olhos: yellow
+Ano de nascimento: 54BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Bib Fortuna
+Altura (cm): 180
+Cor da pele: pale
+Cor dos olhos: pink
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Ayla Secura
+Altura (cm): 178
+Massa (kg): 55
+Cor da pele: blue
+Cor dos olhos: hazel
+Ano de nascimento: 48BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Ratts Tyerel
+Altura (cm): 79
+Massa (kg): 15
+Cor da pele: grey, blue
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Dud Bolt
+Altura (cm): 94
+Massa (kg): 45
+Cor da pele: blue, grey
+Cor dos olhos: yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Gasgano
+Altura (cm): 122
+Cor da pele: white, blue
+Cor dos olhos: black
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Ben Quadinaros
+Altura (cm): 163
+Massa (kg): 65
+Cor da pele: grey, green, yellow
+Cor dos olhos: orange
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Mace Windu
+Altura (cm): 188
+Massa (kg): 84
+Cor da pele: dark
+Cor dos olhos: brown
+Ano de nascimento: 72BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Ki-Adi-Mundi
+Altura (cm): 198
+Massa (kg): 82
+Cor do cabelo: white
+Cor da pele: pale
+Cor dos olhos: yellow
+Ano de nascimento: 92BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Kit Fisto
+Altura (cm): 196
+Massa (kg): 87
+Cor da pele: green
+Cor dos olhos: black
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Eeth Koth
+Altura (cm): 171
+Cor do cabelo: black
+Cor da pele: brown
+Cor dos olhos: brown
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Adi Gallia
+Altura (cm): 184
+Massa (kg): 50
+Cor da pele: dark
+Cor dos olhos: blue
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Saesee Tiin
+Altura (cm): 188
+Cor da pele: pale
+Cor dos olhos: orange
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Yarael Poof
+Altura (cm): 264
+Cor da pele: white
+Cor dos olhos: yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Plo Koon
+Altura (cm): 188
+Massa (kg): 80
+Cor da pele: orange
+Cor dos olhos: black
+Ano de nascimento: 22BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Mas Amedda
+Altura (cm): 196
+Cor da pele: blue
+Cor dos olhos: blue
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Gregar Typho
+Altura (cm): 185
+Massa (kg): 85
+Cor do cabelo: black
+Cor da pele: dark
+Cor dos olhos: brown
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Cordé
+Altura (cm): 157
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Cliegg Lars
+Altura (cm): 183
+Cor do cabelo: brown
+Cor da pele: fair
+Cor dos olhos: blue
+Ano de nascimento: 82BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Poggle the Lesser
+Altura (cm): 183
+Massa (kg): 80
+Cor da pele: green
+Cor dos olhos: yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Luminara Unduli
+Altura (cm): 170
+Massa (kg): 56.2
+Cor do cabelo: black
+Cor da pele: yellow
+Cor dos olhos: blue
+Ano de nascimento: 58BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Barriss Offee
+Altura (cm): 166
+Massa (kg): 50
+Cor do cabelo: black
+Cor da pele: yellow
+Cor dos olhos: blue
+Ano de nascimento: 40BBY
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Dormé
+Altura (cm): 165
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Dooku
+Altura (cm): 193
+Massa (kg): 80
+Cor do cabelo: white
+Cor da pele: fair
+Cor dos olhos: brown
+Ano de nascimento: 102BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Bail Prestor Organa
+Altura (cm): 191
+Cor do cabelo: black
+Cor da pele: tan
+Cor dos olhos: brown
+Ano de nascimento: 67BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Jango Fett
+Altura (cm): 183
+Massa (kg): 79
+Cor do cabelo: black
+Cor da pele: tan
+Cor dos olhos: brown
+Ano de nascimento: 66BBY
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Zam Wesell
+Altura (cm): 168
+Massa (kg): 55
+Cor do cabelo: blonde
+Cor da pele: fair, green, yellow
+Cor dos olhos: yellow
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Dexter Jettster
+Altura (cm): 198
+Massa (kg): 102
+Cor da pele: brown
+Cor dos olhos: yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Lama Su
+Altura (cm): 229
+Massa (kg): 88
+Cor da pele: grey
+Cor dos olhos: black
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Taun We
+Altura (cm): 213
+Cor da pele: grey
+Cor dos olhos: black
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Jocasta Nu
+Altura (cm): 167
+Cor do cabelo: white
+Cor da pele: fair
+Cor dos olhos: blue
+Gênero: female
+
+---
+
+[Personagem]
+Nome: R4-P17
+Altura (cm): 96
+Cor da pele: silver, red
+Cor dos olhos: red, blue
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Wat Tambor
+Altura (cm): 193
+Massa (kg): 48
+Cor da pele: green, grey
+Gênero: male
+
+---
+
+[Personagem]
+Nome: San Hill
+Altura (cm): 191
+Cor da pele: grey
+Cor dos olhos: gold
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Shaak Ti
+Altura (cm): 178
+Massa (kg): 57
+Cor da pele: red, blue, white
+Cor dos olhos: black
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Grievous
+Altura (cm): 216
+Massa (kg): 159
+Cor da pele: brown, white
+Cor dos olhos: green, yellow
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Tarfful
+Altura (cm): 234
+Massa (kg): 136
+Cor do cabelo: brown
+Cor da pele: brown
+Cor dos olhos: blue
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Raymus Antilles
+Altura (cm): 188
+Massa (kg): 79
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Sly Moore
+Altura (cm): 178
+Massa (kg): 48
+Cor da pele: pale
+Cor dos olhos: white
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Tion Medon
+Altura (cm): 206
+Massa (kg): 80
+Cor da pele: grey
+Cor dos olhos: black
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Finn
+Cor do cabelo: black
+Cor da pele: dark
+Cor dos olhos: dark
+Gênero: male
+
+---
+
+[Personagem]
+Nome: Rey
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: hazel
+Gênero: female
+
+---
+
+[Personagem]
+Nome: Poe Dameron
+Cor do cabelo: brown
+Cor da pele: light
+Cor dos olhos: brown
+Gênero: male
+
+---
+
+[Personagem]
+Nome: BB8
+Cor dos olhos: black
+
+---
+
+[Personagem]
+Nome: Captain Phasma
+Gênero: female

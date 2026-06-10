@@ -1,0 +1,413 @@
+[Espécie]
+Nome: Human
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 180
+Skin colors: caucasian, black, asian, hispanic
+Hair colors: blonde, brown, black, red
+Eye colors: brown, blue, green, hazel, grey, amber
+Expectativa de vida (anos): 120
+Língua: Galactic Basic
+
+---
+
+[Espécie]
+Nome: Droid
+Classificação: artificial
+Designação: sentient
+Expectativa de vida (anos): indefinite
+
+---
+
+[Espécie]
+Nome: Wookiee
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 210
+Skin colors: gray
+Hair colors: black, brown
+Eye colors: blue, green, yellow, brown, golden, red
+Expectativa de vida (anos): 400
+Língua: Shyriiwook
+
+---
+
+[Espécie]
+Nome: Rodian
+Classificação: sentient
+Designação: reptilian
+Altura média (cm): 170
+Skin colors: green, blue
+Eye colors: black
+Língua: Galatic Basic
+
+---
+
+[Espécie]
+Nome: Hutt
+Classificação: gastropod
+Designação: sentient
+Altura média (cm): 300
+Skin colors: green, brown, tan
+Eye colors: yellow, red
+Expectativa de vida (anos): 1000
+Língua: Huttese
+
+---
+
+[Espécie]
+Nome: Yoda's species
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 66
+Skin colors: green, yellow
+Hair colors: brown, white
+Eye colors: brown, green, yellow
+Expectativa de vida (anos): 900
+Língua: Galactic basic
+
+---
+
+[Espécie]
+Nome: Trandoshan
+Classificação: reptile
+Designação: sentient
+Altura média (cm): 200
+Skin colors: brown, green
+Eye colors: yellow, orange
+Língua: Dosh
+
+---
+
+[Espécie]
+Nome: Mon Calamari
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 160
+Skin colors: red, blue, brown, magenta
+Eye colors: yellow
+Língua: Mon Calamarian
+
+---
+
+[Espécie]
+Nome: Ewok
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 100
+Skin colors: brown
+Hair colors: white, brown, black
+Eye colors: orange, brown
+Língua: Ewokese
+
+---
+
+[Espécie]
+Nome: Sullustan
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 180
+Skin colors: pale
+Eye colors: black
+Língua: Sullutese
+
+---
+
+[Espécie]
+Nome: Neimodian
+Designação: sentient
+Altura média (cm): 180
+Skin colors: grey, green
+Eye colors: red, pink
+Língua: Neimoidia
+
+---
+
+[Espécie]
+Nome: Gungan
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 190
+Skin colors: brown, green
+Eye colors: orange
+Língua: Gungan basic
+
+---
+
+[Espécie]
+Nome: Toydarian
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 120
+Skin colors: blue, green, grey
+Eye colors: yellow
+Expectativa de vida (anos): 91
+Língua: Toydarian
+
+---
+
+[Espécie]
+Nome: Dug
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 100
+Skin colors: brown, purple, grey, red
+Eye colors: yellow, blue
+Língua: Dugese
+
+---
+
+[Espécie]
+Nome: Twi'lek
+Classificação: mammals
+Designação: sentient
+Altura média (cm): 200
+Skin colors: orange, yellow, blue, green, pink, purple, tan
+Eye colors: blue, brown, orange, pink
+Língua: Twi'leki
+
+---
+
+[Espécie]
+Nome: Aleena
+Classificação: reptile
+Designação: sentient
+Altura média (cm): 80
+Skin colors: blue, gray
+Expectativa de vida (anos): 79
+Língua: Aleena
+
+---
+
+[Espécie]
+Nome: Vulptereen
+Designação: sentient
+Altura média (cm): 100
+Skin colors: grey
+Eye colors: yellow
+Língua: vulpterish
+
+---
+
+[Espécie]
+Nome: Xexto
+Designação: sentient
+Altura média (cm): 125
+Skin colors: grey, yellow, purple
+Eye colors: black
+Língua: Xextese
+
+---
+
+[Espécie]
+Nome: Toong
+Designação: sentient
+Altura média (cm): 200
+Skin colors: grey, green, yellow
+Eye colors: orange
+Língua: Tundan
+
+---
+
+[Espécie]
+Nome: Cerean
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 200
+Skin colors: pale pink
+Hair colors: red, blond, black, white
+Eye colors: hazel
+Língua: Cerean
+
+---
+
+[Espécie]
+Nome: Nautolan
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 180
+Skin colors: green, blue, brown, red
+Eye colors: black
+Expectativa de vida (anos): 70
+Língua: Nautila
+
+---
+
+[Espécie]
+Nome: Zabrak
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 180
+Skin colors: pale, brown, red, orange, yellow
+Hair colors: black
+Eye colors: brown, orange
+Língua: Zabraki
+
+---
+
+[Espécie]
+Nome: Tholothian
+Classificação: mammal
+Designação: sentient
+Skin colors: dark
+Eye colors: blue, indigo
+
+---
+
+[Espécie]
+Nome: Iktotchi
+Designação: sentient
+Altura média (cm): 180
+Skin colors: pink
+Eye colors: orange
+Língua: Iktotchese
+
+---
+
+[Espécie]
+Nome: Quermian
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 240
+Skin colors: white
+Eye colors: yellow
+Expectativa de vida (anos): 86
+Língua: Quermian
+
+---
+
+[Espécie]
+Nome: Kel Dor
+Designação: sentient
+Altura média (cm): 180
+Skin colors: peach, orange, red
+Eye colors: black, silver
+Expectativa de vida (anos): 70
+Língua: Kel Dor
+
+---
+
+[Espécie]
+Nome: Chagrian
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 190
+Skin colors: blue
+Eye colors: blue
+Língua: Chagria
+
+---
+
+[Espécie]
+Nome: Geonosian
+Classificação: insectoid
+Designação: sentient
+Altura média (cm): 178
+Skin colors: green, brown
+Eye colors: green, hazel
+Língua: Geonosian
+
+---
+
+[Espécie]
+Nome: Mirialan
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 180
+Skin colors: yellow, green
+Hair colors: black, brown
+Eye colors: blue, green, red, yellow, brown, orange
+Língua: Mirialan
+
+---
+
+[Espécie]
+Nome: Clawdite
+Classificação: reptilian
+Designação: sentient
+Altura média (cm): 180
+Skin colors: green, yellow
+Eye colors: yellow
+Expectativa de vida (anos): 70
+Língua: Clawdite
+
+---
+
+[Espécie]
+Nome: Besalisk
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 178
+Skin colors: brown
+Eye colors: yellow
+Expectativa de vida (anos): 75
+Língua: besalisk
+
+---
+
+[Espécie]
+Nome: Kaminoan
+Classificação: amphibian
+Designação: sentient
+Altura média (cm): 220
+Skin colors: grey, blue
+Eye colors: black
+Expectativa de vida (anos): 80
+Língua: Kaminoan
+
+---
+
+[Espécie]
+Nome: Skakoan
+Classificação: mammal
+Designação: sentient
+Skin colors: grey, green
+Língua: Skakoan
+
+---
+
+[Espécie]
+Nome: Muun
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 190
+Skin colors: grey, white
+Eye colors: black
+Expectativa de vida (anos): 100
+Língua: Muun
+
+---
+
+[Espécie]
+Nome: Togruta
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 180
+Skin colors: red, white, orange, yellow, green, blue
+Eye colors: red, orange, yellow, green, blue, black
+Expectativa de vida (anos): 94
+Língua: Togruti
+
+---
+
+[Espécie]
+Nome: Kaleesh
+Classificação: reptile
+Designação: sentient
+Altura média (cm): 170
+Skin colors: brown, orange, tan
+Eye colors: yellow
+Expectativa de vida (anos): 80
+Língua: Kaleesh
+
+---
+
+[Espécie]
+Nome: Pau'an
+Classificação: mammal
+Designação: sentient
+Altura média (cm): 190
+Skin colors: grey
+Eye colors: black
+Expectativa de vida (anos): 700
+Língua: Utapese

@@ -1,7 +1,4 @@
-"""Model routing cheap-first com fallback.
-
-Reaproveita o notebook 05. Voce vai preencher 1 TODO aqui.
-"""
+"""Model routing cheap-first com fallback."""
 
 from __future__ import annotations
 
@@ -18,44 +15,23 @@ class RouteDecision:
     reason: str
 
 
-# ------------------------------------------------------------------ TODO 6
 def classify_complexity(query: str) -> RouteDecision:
-    """Classifica complexidade da query para escolher modelo (cheap vs premium).
+    """Classifica a complexidade da query para escolher o modelo adequado.
 
-    Estrategia heuristica simples. Em producao, evoluiria para classifier treinado.
+    Queries analíticas (explique, compare, analise, projete) vão para o modelo
+    premium. Perguntas curtas e diretas usam o modelo barato.
     """
     cheap_model = os.environ.get("CHEAP_MODEL", "gemini-2.5-flash-lite")
     premium_model = os.environ.get("PREMIUM_MODEL", "gemini-2.5-pro")
 
-    # SEU CODIGO AQUI — TODO 6
-    # Implemente heuristica simples para classificar a query como "simple" ou "complex".
-    # Sugestao de regras:
-    #   - len(query) < 60 e query termina em "?" → simple
-    #   - contem palavras como "explique", "compare", "analise", "projete" → complex
-    #   - default → simple
-    # Retorne RouteDecision(model=cheap_model OU premium_model, complexity=..., reason="por que")
-    # Dica: notebook 05, Etapa 5 — Model Routing.
     keywords = ["explique", "compare", "analise", "projete"]
 
     if any(k in query.lower() for k in keywords):
-        return RouteDecision(
-            model=premium_model,
-            complexity="complex",
-            reason="query analítica"
-        )
+        return RouteDecision(model=premium_model, complexity="complex", reason="query analítica")
     elif len(query) < 60 and query.strip().endswith("?"):
-        return RouteDecision(
-            model=cheap_model,
-            complexity="simple",
-            reason="pergunta curta"
-        )
+        return RouteDecision(model=cheap_model, complexity="simple", reason="pergunta curta")
     else:
-        return RouteDecision(
-            model=cheap_model,
-            complexity="simple",
-            reason="default"
-        )
-    raise NotImplementedError("TODO 6: implementar classify_complexity()")
+        return RouteDecision(model=cheap_model, complexity="simple", reason="default")
 
 
 def make_client() -> OpenAI:

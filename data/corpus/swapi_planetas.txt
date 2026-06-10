@@ -1,0 +1,656 @@
+[Planeta]
+Nome: Tatooine
+Período de rotação (h): 23
+Período orbital (dias): 304
+Diâmetro (km): 10465
+Clima: arid
+Gravidade: 1 standard
+Terreno: desert
+Água superficial (%): 1
+População: 200000
+
+---
+
+[Planeta]
+Nome: Alderaan
+Período de rotação (h): 24
+Período orbital (dias): 364
+Diâmetro (km): 12500
+Clima: temperate
+Gravidade: 1 standard
+Terreno: grasslands, mountains
+Água superficial (%): 40
+População: 2000000000
+
+---
+
+[Planeta]
+Nome: Yavin IV
+Período de rotação (h): 24
+Período orbital (dias): 4818
+Diâmetro (km): 10200
+Clima: temperate, tropical
+Gravidade: 1 standard
+Terreno: jungle, rainforests
+Água superficial (%): 8
+População: 1000
+
+---
+
+[Planeta]
+Nome: Hoth
+Período de rotação (h): 23
+Período orbital (dias): 549
+Diâmetro (km): 7200
+Clima: frozen
+Gravidade: 1.1 standard
+Terreno: tundra, ice caves, mountain ranges
+Água superficial (%): 100
+
+---
+
+[Planeta]
+Nome: Dagobah
+Período de rotação (h): 23
+Período orbital (dias): 341
+Diâmetro (km): 8900
+Clima: murky
+Terreno: swamp, jungles
+Água superficial (%): 8
+
+---
+
+[Planeta]
+Nome: Bespin
+Período de rotação (h): 12
+Período orbital (dias): 5110
+Diâmetro (km): 118000
+Clima: temperate
+Gravidade: 1.5 (surface), 1 standard (Cloud City)
+Terreno: gas giant
+Água superficial (%): 0
+População: 6000000
+
+---
+
+[Planeta]
+Nome: Endor
+Período de rotação (h): 18
+Período orbital (dias): 402
+Diâmetro (km): 4900
+Clima: temperate
+Gravidade: 0.85 standard
+Terreno: forests, mountains, lakes
+Água superficial (%): 8
+População: 30000000
+
+---
+
+[Planeta]
+Nome: Naboo
+Período de rotação (h): 26
+Período orbital (dias): 312
+Diâmetro (km): 12120
+Clima: temperate
+Gravidade: 1 standard
+Terreno: grassy hills, swamps, forests, mountains
+Água superficial (%): 12
+População: 4500000000
+
+---
+
+[Planeta]
+Nome: Coruscant
+Período de rotação (h): 24
+Período orbital (dias): 368
+Diâmetro (km): 12240
+Clima: temperate
+Gravidade: 1 standard
+Terreno: cityscape, mountains
+População: 1000000000000
+
+---
+
+[Planeta]
+Nome: Kamino
+Período de rotação (h): 27
+Período orbital (dias): 463
+Diâmetro (km): 19720
+Clima: temperate
+Gravidade: 1 standard
+Terreno: ocean
+Água superficial (%): 100
+População: 1000000000
+
+---
+
+[Planeta]
+Nome: Geonosis
+Período de rotação (h): 30
+Período orbital (dias): 256
+Diâmetro (km): 11370
+Clima: temperate, arid
+Gravidade: 0.9 standard
+Terreno: rock, desert, mountain, barren
+Água superficial (%): 5
+População: 100000000000
+
+---
+
+[Planeta]
+Nome: Utapau
+Período de rotação (h): 27
+Período orbital (dias): 351
+Diâmetro (km): 12900
+Clima: temperate, arid, windy
+Gravidade: 1 standard
+Terreno: scrublands, savanna, canyons, sinkholes
+Água superficial (%): 0.9
+População: 95000000
+
+---
+
+[Planeta]
+Nome: Mustafar
+Período de rotação (h): 36
+Período orbital (dias): 412
+Diâmetro (km): 4200
+Clima: hot
+Gravidade: 1 standard
+Terreno: volcanoes, lava rivers, mountains, caves
+Água superficial (%): 0
+População: 20000
+
+---
+
+[Planeta]
+Nome: Kashyyyk
+Período de rotação (h): 26
+Período orbital (dias): 381
+Diâmetro (km): 12765
+Clima: tropical
+Gravidade: 1 standard
+Terreno: jungle, forests, lakes, rivers
+Água superficial (%): 60
+População: 45000000
+
+---
+
+[Planeta]
+Nome: Polis Massa
+Período de rotação (h): 24
+Período orbital (dias): 590
+Diâmetro (km): 0
+Clima: artificial temperate 
+Gravidade: 0.56 standard
+Terreno: airless asteroid
+Água superficial (%): 0
+População: 1000000
+
+---
+
+[Planeta]
+Nome: Mygeeto
+Período de rotação (h): 12
+Período orbital (dias): 167
+Diâmetro (km): 10088
+Clima: frigid
+Gravidade: 1 standard
+Terreno: glaciers, mountains, ice canyons
+População: 19000000
+
+---
+
+[Planeta]
+Nome: Felucia
+Período de rotação (h): 34
+Período orbital (dias): 231
+Diâmetro (km): 9100
+Clima: hot, humid
+Gravidade: 0.75 standard
+Terreno: fungus forests
+População: 8500000
+
+---
+
+[Planeta]
+Nome: Cato Neimoidia
+Período de rotação (h): 25
+Período orbital (dias): 278
+Diâmetro (km): 0
+Clima: temperate, moist
+Gravidade: 1 standard
+Terreno: mountains, fields, forests, rock arches
+População: 10000000
+
+---
+
+[Planeta]
+Nome: Saleucami
+Período de rotação (h): 26
+Período orbital (dias): 392
+Diâmetro (km): 14920
+Clima: hot
+Terreno: caves, desert, mountains, volcanoes
+População: 1400000000
+
+---
+
+[Planeta]
+Nome: Stewjon
+Diâmetro (km): 0
+Clima: temperate
+Gravidade: 1 standard
+Terreno: grass
+
+---
+
+[Planeta]
+Nome: Eriadu
+Período de rotação (h): 24
+Período orbital (dias): 360
+Diâmetro (km): 13490
+Clima: polluted
+Gravidade: 1 standard
+Terreno: cityscape
+População: 22000000000
+
+---
+
+[Planeta]
+Nome: Corellia
+Período de rotação (h): 25
+Período orbital (dias): 329
+Diâmetro (km): 11000
+Clima: temperate
+Gravidade: 1 standard
+Terreno: plains, urban, hills, forests
+Água superficial (%): 70
+População: 3000000000
+
+---
+
+[Planeta]
+Nome: Rodia
+Período de rotação (h): 29
+Período orbital (dias): 305
+Diâmetro (km): 7549
+Clima: hot
+Gravidade: 1 standard
+Terreno: jungles, oceans, urban, swamps
+Água superficial (%): 60
+População: 1300000000
+
+---
+
+[Planeta]
+Nome: Nal Hutta
+Período de rotação (h): 87
+Período orbital (dias): 413
+Diâmetro (km): 12150
+Clima: temperate
+Gravidade: 1 standard
+Terreno: urban, oceans, swamps, bogs
+População: 7000000000
+
+---
+
+[Planeta]
+Nome: Dantooine
+Período de rotação (h): 25
+Período orbital (dias): 378
+Diâmetro (km): 9830
+Clima: temperate
+Gravidade: 1 standard
+Terreno: oceans, savannas, mountains, grasslands
+População: 1000
+
+---
+
+[Planeta]
+Nome: Bestine IV
+Período de rotação (h): 26
+Período orbital (dias): 680
+Diâmetro (km): 6400
+Clima: temperate
+Terreno: rocky islands, oceans
+Água superficial (%): 98
+População: 62000000
+
+---
+
+[Planeta]
+Nome: Ord Mantell
+Período de rotação (h): 26
+Período orbital (dias): 334
+Diâmetro (km): 14050
+Clima: temperate
+Gravidade: 1 standard
+Terreno: plains, seas, mesas
+Água superficial (%): 10
+População: 4000000000
+
+---
+
+[Planeta]
+Período de rotação (h): 0
+Período orbital (dias): 0
+Diâmetro (km): 0
+
+---
+
+[Planeta]
+Nome: Trandosha
+Período de rotação (h): 25
+Período orbital (dias): 371
+Diâmetro (km): 0
+Clima: arid
+Gravidade: 0.62 standard
+Terreno: mountains, seas, grasslands, deserts
+População: 42000000
+
+---
+
+[Planeta]
+Nome: Socorro
+Período de rotação (h): 20
+Período orbital (dias): 326
+Diâmetro (km): 0
+Clima: arid
+Gravidade: 1 standard
+Terreno: deserts, mountains
+População: 300000000
+
+---
+
+[Planeta]
+Nome: Mon Cala
+Período de rotação (h): 21
+Período orbital (dias): 398
+Diâmetro (km): 11030
+Clima: temperate
+Gravidade: 1
+Terreno: oceans, reefs, islands
+Água superficial (%): 100
+População: 27000000000
+
+---
+
+[Planeta]
+Nome: Chandrila
+Período de rotação (h): 20
+Período orbital (dias): 368
+Diâmetro (km): 13500
+Clima: temperate
+Gravidade: 1
+Terreno: plains, forests
+Água superficial (%): 40
+População: 1200000000
+
+---
+
+[Planeta]
+Nome: Sullust
+Período de rotação (h): 20
+Período orbital (dias): 263
+Diâmetro (km): 12780
+Clima: superheated
+Gravidade: 1
+Terreno: mountains, volcanoes, rocky deserts
+Água superficial (%): 5
+População: 18500000000
+
+---
+
+[Planeta]
+Nome: Toydaria
+Período de rotação (h): 21
+Período orbital (dias): 184
+Diâmetro (km): 7900
+Clima: temperate
+Gravidade: 1
+Terreno: swamps, lakes
+População: 11000000
+
+---
+
+[Planeta]
+Nome: Malastare
+Período de rotação (h): 26
+Período orbital (dias): 201
+Diâmetro (km): 18880
+Clima: arid, temperate, tropical
+Gravidade: 1.56
+Terreno: swamps, deserts, jungles, mountains
+População: 2000000000
+
+---
+
+[Planeta]
+Nome: Dathomir
+Período de rotação (h): 24
+Período orbital (dias): 491
+Diâmetro (km): 10480
+Clima: temperate
+Gravidade: 0.9
+Terreno: forests, deserts, savannas
+População: 5200
+
+---
+
+[Planeta]
+Nome: Ryloth
+Período de rotação (h): 30
+Período orbital (dias): 305
+Diâmetro (km): 10600
+Clima: temperate, arid, subartic
+Gravidade: 1
+Terreno: mountains, valleys, deserts, tundra
+Água superficial (%): 5
+População: 1500000000
+
+---
+
+[Planeta]
+Nome: Aleen Minor
+
+---
+
+[Planeta]
+Nome: Vulpter
+Período de rotação (h): 22
+Período orbital (dias): 391
+Diâmetro (km): 14900
+Clima: temperate, artic
+Gravidade: 1
+Terreno: urban, barren
+População: 421000000
+
+---
+
+[Planeta]
+Nome: Troiken
+Terreno: desert, tundra, rainforests, mountains
+
+---
+
+[Planeta]
+Nome: Tund
+Período de rotação (h): 48
+Período orbital (dias): 1770
+Diâmetro (km): 12190
+Terreno: barren, ash
+População: 0
+
+---
+
+[Planeta]
+Nome: Haruun Kal
+Período de rotação (h): 25
+Período orbital (dias): 383
+Diâmetro (km): 10120
+Clima: temperate
+Gravidade: 0.98
+Terreno: toxic cloudsea, plateaus, volcanoes
+População: 705300
+
+---
+
+[Planeta]
+Nome: Cerea
+Período de rotação (h): 27
+Período orbital (dias): 386
+Clima: temperate
+Gravidade: 1
+Terreno: verdant
+Água superficial (%): 20
+População: 450000000
+
+---
+
+[Planeta]
+Nome: Glee Anselm
+Período de rotação (h): 33
+Período orbital (dias): 206
+Diâmetro (km): 15600
+Clima: tropical, temperate
+Gravidade: 1
+Terreno: lakes, islands, swamps, seas
+Água superficial (%): 80
+População: 500000000
+
+---
+
+[Planeta]
+Nome: Iridonia
+Período de rotação (h): 29
+Período orbital (dias): 413
+Terreno: rocky canyons, acid pools
+
+---
+
+[Planeta]
+Nome: Tholoth
+
+---
+
+[Planeta]
+Nome: Iktotch
+Período de rotação (h): 22
+Período orbital (dias): 481
+Clima: arid, rocky, windy
+Gravidade: 1
+Terreno: rocky
+
+---
+
+[Planeta]
+Nome: Quermia
+
+---
+
+[Planeta]
+Nome: Dorin
+Período de rotação (h): 22
+Período orbital (dias): 409
+Diâmetro (km): 13400
+Clima: temperate
+Gravidade: 1
+
+---
+
+[Planeta]
+Nome: Champala
+Período de rotação (h): 27
+Período orbital (dias): 318
+Clima: temperate
+Gravidade: 1
+Terreno: oceans, rainforests, plateaus
+População: 3500000000
+
+---
+
+[Planeta]
+Nome: Mirial
+Terreno: deserts
+
+---
+
+[Planeta]
+Nome: Serenno
+Terreno: rainforests, rivers, mountains
+
+---
+
+[Planeta]
+Nome: Concord Dawn
+Terreno: jungles, forests, deserts
+
+---
+
+[Planeta]
+Nome: Zolan
+
+---
+
+[Planeta]
+Nome: Ojom
+Clima: frigid
+Terreno: oceans, glaciers
+Água superficial (%): 100
+População: 500000000
+
+---
+
+[Planeta]
+Nome: Skako
+Período de rotação (h): 27
+Período orbital (dias): 384
+Clima: temperate
+Gravidade: 1
+Terreno: urban, vines
+População: 500000000000
+
+---
+
+[Planeta]
+Nome: Muunilinst
+Período de rotação (h): 28
+Período orbital (dias): 412
+Diâmetro (km): 13800
+Clima: temperate
+Gravidade: 1
+Terreno: plains, forests, hills, mountains
+Água superficial (%): 25
+População: 5000000000
+
+---
+
+[Planeta]
+Nome: Shili
+Clima: temperate
+Gravidade: 1
+Terreno: cities, savannahs, seas, plains
+
+---
+
+[Planeta]
+Nome: Kalee
+Período de rotação (h): 23
+Período orbital (dias): 378
+Diâmetro (km): 13850
+Clima: arid, temperate, tropical
+Gravidade: 1
+Terreno: rainforests, cliffs, canyons, seas
+População: 4000000000
+
+---
+
+[Planeta]
+Nome: Umbara
+
+---
+
+[Planeta]
+Nome: Jakku
+Terreno: deserts
